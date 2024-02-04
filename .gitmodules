@@ -1,0 +1,3 @@
+[submodule "FinanceDataAPI"]
+	path = FinanceDataAPI
+	url = https://github.com/0ne-bey0nd/FinanceDataAPI.git
