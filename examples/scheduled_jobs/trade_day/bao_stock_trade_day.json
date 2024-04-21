@@ -15,5 +15,16 @@
             "pre_component_name": "storager_0",
             "component_arguments": {}
         }
+    },
+    "trigger": {
+        "type": "cron",
+        "arguments": {
+            "second": "*/5",
+            "minute": "*",
+            "hour": "*",
+            "day": "*",
+            "month": "*",
+            "day_of_week": "*"
+        }
     }
 }

@@ -20,5 +20,16 @@
                 "stock_code": "sh600519"
             }
         }
+    },
+    "trigger": {
+        "type": "cron",
+        "arguments": {
+            "second": "*/10",
+            "minute": "*",
+            "hour": "*",
+            "day": "*",
+            "month": "*",
+            "day_of_week": "*"
+        }
     }
 }
