@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "formatters": {
+        "standard": {
+            "format": "%(asctime)s [%(levelname)s] [%(name)s] [%(filename)s:%(lineno)d] - %(message)s"
+        }
+    },
+    "handlers": {
+        "default": {
+            "level": "DEBUG",
+            "class": "logging.handlers.RotatingFileHandler",
+            "filename": "logs/finance_data_api.log",
+            "maxBytes": 10485760,
+            "backupCount": 20,
+            "formatter": "standard"
+        },
+        "console": {
+            "level": "DEBUG",
+            "class": "logging.StreamHandler",
+            "formatter": "standard"
+        }
+    },
+    "loggers": {
+        "FinanceDataAPI_manual_logger": {
+            "handlers": [
+                "default",
+                "console"
+            ],
+            "level": "DEBUG",
+            "propagate": true
+        }
+    }
+}

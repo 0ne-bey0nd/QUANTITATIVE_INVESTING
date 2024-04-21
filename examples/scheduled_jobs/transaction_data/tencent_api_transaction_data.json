@@ -1,0 +1,24 @@
+{
+    "pipeline_structure": {
+        "producer_0": {
+            "component_class_name": "TencentApiTransactionDataProducer",
+            "pre_component_name": "",
+            "component_arguments": {
+                "stock_code": "sh600519",
+                "limit": 100
+            }
+        },
+        "processor_0": {
+            "component_class_name": "TencentApiTransactionDataProcessor",
+            "pre_component_name": "producer_0",
+            "component_arguments": {}
+        },
+        "storager_0": {
+            "component_class_name": "TencentApiTransactionDataStorager",
+            "pre_component_name": "storager_0",
+            "component_arguments": {
+                "stock_code": "sh600519"
+            }
+        }
+    }
+}

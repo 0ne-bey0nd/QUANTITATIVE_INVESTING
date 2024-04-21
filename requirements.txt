@@ -1,0 +1,12 @@
+APScheduler
+baostock
+fastapi
+matplotlib
+numpy
+pandas
+pydantic
+PyMySQL
+python_dateutil
+Requests
+tushare
+uvicorn
