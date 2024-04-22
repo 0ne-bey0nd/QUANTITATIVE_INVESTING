@@ -19,9 +19,9 @@
     "trigger": {
         "type": "cron",
         "arguments": {
-            "second": "*/5",
-            "minute": "*",
-            "hour": "*",
+            "second": "0",
+            "minute": "0",
+            "hour": "9",
             "day": "*",
             "month": "*",
             "day_of_week": "*"

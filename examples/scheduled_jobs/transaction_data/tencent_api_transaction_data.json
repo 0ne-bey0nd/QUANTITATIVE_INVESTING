@@ -4,7 +4,7 @@
             "component_class_name": "TencentApiTransactionDataProducer",
             "pre_component_name": "",
             "component_arguments": {
-                "stock_code": "sh600519",
+                "stock_code_list": ["sh600519", "sz000001"],
                 "limit": 100
             }
         },
@@ -17,14 +17,13 @@
             "component_class_name": "TencentApiTransactionDataStorager",
             "pre_component_name": "storager_0",
             "component_arguments": {
-                "stock_code": "sh600519"
             }
         }
     },
     "trigger": {
         "type": "cron",
         "arguments": {
-            "second": "*/10",
+            "second": "*/3",
             "minute": "*",
             "hour": "*",
             "day": "*",
