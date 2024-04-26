@@ -4,7 +4,7 @@
             "component_class_name": "TencentApiTransactionDataProducer",
             "pre_component_name": "",
             "component_arguments": {
-                "stock_code_list": ["sh600519", "sz000001"],
+                "stock_code_list":["sh600519", "sz000001"],
                 "limit": 100
             }
         },
