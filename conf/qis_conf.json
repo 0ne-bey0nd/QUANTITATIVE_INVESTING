@@ -5,7 +5,7 @@
         "debug": true,
         "reload": true
     },
-    "storage_config_file_name": "my_storage_conf.json",
+    "storage_config_file_name": "storage_conf.json",
     "scheduler_jobs_config_dir_path": "examples/scheduler_jobs",
     "log_config": {
         "default_log_format_str": "[%(levelname)s] [%(asctime)s] [job_id] [%(process)s:%(thread)s] - [%(module)s.%(funcName)s] [line:%(lineno)d]: %(message)s",
