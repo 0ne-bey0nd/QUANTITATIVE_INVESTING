@@ -1,0 +1,21 @@
+{
+    "pipeline_structure": {
+        "hs300_transaction_data_0": {
+            "component_class_name": "HS300StockTransactionData",
+            "pre_component_name": "",
+            "component_arguments": {
+            }
+        }
+    },
+    "trigger": {
+        "type": "cron",
+        "arguments": {
+            "second": "*/3",
+            "minute": "*",
+            "hour": "*",
+            "day": "*",
+            "month": "*",
+            "day_of_week": "*"
+        }
+    }
+}
